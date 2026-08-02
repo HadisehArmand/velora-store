@@ -2,9 +2,6 @@ header {
   background-color: #fafafa;
 }
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
@@ -42,4 +39,24 @@ a:hover {
 button:hover {
   color: #8b5cf6;
   background-color: #f3e8ff;
+}
+.hero {
+  padding: 80px 0;
+}
+.hero-content {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
