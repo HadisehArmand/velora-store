@@ -1,7 +1,14 @@
 header {
+  background-color: #fafafa;
+}
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
 }
 nav ul {
   display: flex;
@@ -10,8 +17,29 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
+}
 
-.action {
+.actions {
   display: flex;
   gap: 15px;
+}
+button {
+  color: #444;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+a:hover {
+  color: #8b5cf6;
+}
+button:hover {
+  color: #8b5cf6;
+  background-color: #f3e8ff;
 }
